@@ -227,3 +227,5 @@ for index, paragraph in enumerate(paragraphs):
 
 print("{} out of {} passed.".format(count, len(paragraphs)))
 print("{}%".format(int((count / len(paragraphs))*100)))
+
+print(paragraph_to_sentences("· B.S. or B.A. in finance, accounting, economics, or business related field"))

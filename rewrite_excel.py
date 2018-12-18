@@ -16,9 +16,9 @@ new_paragraph_dict = {
 for paragraph in paragraph_list:
   new_paragraph_list.extend(paragraph_to_sentences(paragraph))
 
-count = 1
+count = 105
 
-for paragraph in paragraph_list:
+for paragraph in new_paragraph_list:
   if paragraph == "----------":
     count += 1
     continue
